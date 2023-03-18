@@ -1,0 +1,34 @@
+
+
+.card{
+
+}
+.containercolum{
+    width: 100%;
+    height: auto;
+    /* display: flex;
+    flex-direction: column; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    place-items: center;
+    background-color: aqua;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.containercolum img{
+    margin: 2px;
+    width: 350px;
+   
+   
+}
+.product{
+ 
+    width: 300px;
+    height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+

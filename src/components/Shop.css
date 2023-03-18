@@ -1,0 +1,47 @@
+h1{
+   text-align: center;
+   padding: 2px;
+}
+.container{
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: row;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     place-items: center;
+}
+
+.container img{
+    width: 300px;
+   
+   
+}
+.product{
+    margin: 5px;
+    width: 300px;
+    height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.description{
+    text-align: center;
+}
+.product:hover{
+    cursor: pointer;
+   
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 3rem;
+   padding: 3px;
+  text-align: center;
+  cursor: pointer;
+ }
+.btn:hover{
+    background-color:aqua;
+}
